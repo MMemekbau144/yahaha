@@ -1,8 +1,8 @@
 #!/bin/bash
 apt install jq curl -y
-DOMAIN=premiums.codes
+DOMAIN=brodybae.me
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}.premiums.codes
+SUB_DOMAIN=${sub}.brodybae.me
 CF_ID=ahmadrzamaulana@gmail.com
 CF_KEY=50a5694d60c80840ad0c01e19fabc51d51161
 set -euo pipefail
